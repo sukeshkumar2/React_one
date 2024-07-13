@@ -1,0 +1,35 @@
+{
+  "name": "react_one",
+  "version": "1.0.0",
+  "description": "react app from scratch",
+  
+  "scripts": {
+    "test": "jest",
+    "start": "rm -rf .parcel-cache && parcel",
+    "build": "rm -rf .parcel-cache && parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sukeshkumar2/React_one.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "sukesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sukeshkumar2/React_one/issues"
+  },
+  "homepage": "https://github.com/sukeshkumar2/React_one#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browserslist":[
+    "last 2 versions"
+  ]
+}
